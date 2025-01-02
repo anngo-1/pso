@@ -1,4 +1,3 @@
-```markdown
 # Particle Swarm Optimization (PSO) Visualization
 
 This project interactively visualizes the PSO algorithm optimizing functions of two variables. Observe particles swarm towards the global minimum on different functions in 2D or 3D.
@@ -114,4 +113,3 @@ Tweak parameters in `pso.py` or define new functions in `objective_functions.py`
 - **Modify Inertia**: Experiment with `w`.
 - **Define Functions**: Add your own in `objective_functions.py` or use the `--function` command-line argument.
 - **Experiment with Bounds**: Change the search space limits within the `PSO` class initialization.
-```
