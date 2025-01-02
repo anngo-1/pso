@@ -1,6 +1,6 @@
 # Particle Swarm Optimization (PSO) Visualization
 
-This project interactively visualizes the PSO algorithm optimizing functions of two variables. Observe particles swarm towards the global minimum on different functions in 2D or 3D.
+This project interactively implements and visualizes the PSO algorithm optimizing functions of two variables. Observe particles swarm towards the global minimum on different functions in 2D or 3D.
 
 ## Examples
 
