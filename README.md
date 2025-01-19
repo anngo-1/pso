@@ -96,7 +96,7 @@ The new velocity of particle `i` at the next time step (`t+1`) is determined by:
 
 We can represent this mathematically as:
 
-$$ velocity_i(t+1) = w \cdot velocity_i(t) + c_1 \cdot r_1 \cdot (personal\_best_i - position_i(t)) + c_2 \cdot r_2 \cdot (global\_best - position_i(t)) $$
+$$ velocity_i(t+1) = w \cdot velocity_i(t) + c_1 \cdot r_1 \cdot (personalbest_i - position_i(t)) + c_2 \cdot r_2 \cdot (globalbest - position_i(t)) $$
 
 Where:
 
@@ -104,8 +104,8 @@ Where:
 *   `w`: The inertia weight, controlling how much the particle retains its previous velocity.
 *   `c1`, `c2`:  Acceleration coefficients that determine the strength of the pull towards the personal best and global best, respectively.
 *   `r1`, `r2`: Random numbers between 0 and 1, adding a stochastic element to the movement.
-*   `personal_best_i`: The best position found so far by particle `i`.
-*   `global_best`: The best position found so far by the entire swarm.
+*   `personalbest_i`: The best position found so far by particle `i`.
+*   `globalbest`: The best position found so far by the entire swarm.
 *   `position_i(t)`: The current position of particle `i` at time `t`.
 
 **Position Update Equation:**
